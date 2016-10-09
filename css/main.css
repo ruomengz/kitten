@@ -35,19 +35,22 @@ article {
 body {
     font-family: 'Lato', serif;
     color: #2d3c49;
-    font-weight: 300;
+    font-weight: 100;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-footer {
-  margin: 0 auto;
-  width: 800px;
+h1 {
+    font-size: 42px;
 }
 
 h2 {
     color: #7d97ad;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 .name-title{
@@ -78,11 +81,9 @@ h2 {
     }
 }
 
-header:hover svg#logo {
-  fill: #3d85c6;
-  -webkit-filter: drop-shadow(3px 3px 3px #ddd);
-  filter: drop-shadow(3px 3px 3px #ddd);
-}
-header:hover h1 {
-  color: #3d85c6;
-}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+      margin-bottom: 20px;
+  }
